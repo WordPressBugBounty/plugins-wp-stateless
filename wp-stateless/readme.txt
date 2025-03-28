@@ -54,7 +54,7 @@ New to Google Cloud? Google is offering you a [$300 credit](https://console.clou
 * [Divi Theme Addon](https://wordpress.org/plugins/wp-stateless-divi-theme-addon/)
 * [SiteOrigin CSS Addon](https://wordpress.org/plugins/wp-stateless-siteorigin-css-addon/)
 * [SiteOrigin Widgets Bundle Addon](https://wordpress.org/plugins/wp-stateless-siteorigin-widgets-bundle-addon/)
-* [BuddyPress Addon](https://wordpress.org/support/plugin/wp-stateless-buddypress-addon/)
+* [BuddyPress Addon](https://wordpress.org/plugin/wp-stateless-buddypress-addon/)
 * [BuddyBoss Platform Addon](https://wordpress.org/plugins/wp-stateless-buddyboss-platform-addon/)
 * [Polylang Pro Addon](https://wordpress.org/plugins/wp-stateless-polylang-pro-addon/)
 
@@ -151,7 +151,7 @@ Before upgrading to WP-Stateless 3.0, please, make sure you tested it on your de
 * COMPATIBILITY - WPForms Compatibility replaced with [WP-Stateless - WPForms Addon](https://wordpress.org/plugins/wp-stateless-wpforms-addon/).
 * COMPATIBILITY - Easy Digital Downloads Compatibility replaced with [WP-Stateless - Easy Digital Downloads Addon](https://wordpress.org/plugins/wp-stateless-easy-digital-downloads-addon/).
 * COMPATIBILITY - LiteSpeed Cache Compatibility replaced with [WP-Stateless - LiteSpeed Cache Addon](https://wordpress.org/plugins/wp-stateless-litespeed-cache-addon/).
-* COMPATIBILITY - BuddyPress Compatibility replaced with [WP-Stateless - BuddyPress Addon](https://wordpress.org/support/plugin/wp-stateless-buddypress-addon/).
+* COMPATIBILITY - BuddyPress Compatibility replaced with [WP-Stateless - BuddyPress Addon](https://wordpress.org/plugin/wp-stateless-buddypress-addon/).
 * FIX: remove PHP warning on `Status` settings tab.
 * FIX: database updates to resolve conflicts with Polylang Pro compatibility.
 
