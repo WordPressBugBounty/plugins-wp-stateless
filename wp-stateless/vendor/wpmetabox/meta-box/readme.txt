@@ -2,10 +2,10 @@
 Contributors: elightup, metabox, rilwis, f-j-kaiser, funkatronic, PerWiklander, ruanmer, tanng
 Donate link: https://metabox.io/pricing/
 Tags: custom fields, custom post types, post type, custom taxonomies, meta box
-Requires at least: 5.9
+Requires at least: 6.5
 Requires PHP: 7.1
-Tested up to: 6.8.1
-Stable tag: 5.10.11
+Tested up to: 6.8.3
+Stable tag: 5.10.19
 License: GPLv2 or later
 
 Meta Box plugin is a powerful, professional developer toolkit to create custom meta boxes and custom fields for your custom post types in WordPress.
@@ -146,6 +146,40 @@ If you want to use Meta Box, please follow these steps:
 1. Post Taxonomy Fields
 
 == Changelog ==
+
+= 5.10.19 - 2025-11-24 =
+
+- Fix the `use` statement with non-compound name has no effect
+
+= 5.10.18 - 2025-11-24 =
+
+- Fix deprecation message for `datetime` field
+
+= 5.10.17 - 2025-11-07 =
+
+- WPML integration: fix error when filtering value for helper functions when no fields are found.
+
+= 5.10.16 - 2025-11-05 =
+
+- WPML integration: filter helper functions to get the translated IDs for `post` field
+- Fix cloning `post` field not clearing the value
+
+= 5.10.15 - 2025-10-06 =
+
+- Add `marker_draggable` option for `map`/`osm` fields to disable changing the pin on the map.
+
+= 5.10.14 - 2025-09-15 =
+
+- Update dependencies
+
+= 5.10.13 - 2025-08-14 =
+
+- Fix `get_current_screen()` error for term meta
+
+= 5.10.12 - 2025-08-13 =
+
+- Fix Open Street Maps field not showing (sometimes) with conditional logic
+- Enqueue assets for the iframed editor, to make all fields are rendered properly in the iframed editor
 
 = 5.10.11 - 2025-07-15 =
 

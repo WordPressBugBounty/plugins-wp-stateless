@@ -3,10 +3,10 @@ Contributors: usability_dynamics, andypotanin, ideric, planvova, obolgun
 Donate link: https://udx.io
 Tags: google cloud, google cloud storage, cdn, uploads, backup
 License: GPLv2 or later
-Requires PHP: 8.0
+Requires PHP: 8.1
 Requires at least: 5.0
-Tested up to: 6.8
-Stable tag: 4.2.0
+Tested up to: 6.9
+Stable tag: 4.4.1
 
 Upload and serve your WordPress media files from Google Cloud Storage.
 
@@ -57,6 +57,7 @@ New to Google Cloud? Google is offering you a [$300 credit](https://console.clou
 * [BuddyPress Addon](https://wordpress.org/plugin/wp-stateless-buddypress-addon/)
 * [BuddyBoss Platform Addon](https://wordpress.org/plugins/wp-stateless-buddyboss-platform-addon/)
 * [Polylang Pro Addon](https://wordpress.org/plugins/wp-stateless-polylang-pro-addon/)
+* [Simple Local Avatars](https://wordpress.org/plugins/wp-stateless-simple-local-avatars-addon/)
 
 = Support, Feedback, & Contribute =
 We welcome community involvement via the [GitHub repository](https://github.com/udx/wp-stateless).
@@ -135,7 +136,28 @@ Before upgrading to WP-Stateless 3.2.0, please, make sure you use PHP 7.2 or abo
 Before upgrading to WP-Stateless 3.0, please, make sure you tested it on your development environment.
 
 == Changelog ==
-= 4.2 =
+= 4.4.1 - 2026-01-16 =
+* COMPATIBILITY - WooCommerce Extra Product Options Compatibility replaced with [WP-Stateless – WooCommerce Extra Product Options Addon](https://wordpress.org/plugins/wp-stateless-woocommerce-extra-product-options-addon/).
+* FIX - resolve critical errors with `firebase/php-jwt` library if `AUTH_SALT` WordPress constant is not set or too short.
+
+= 4.4.0 - 2026-01-10 =
+* NEW - plugin requires PHP 8.1+.
+* ENHANCEMENT - updated `firebase/php-jwt` library from  6.11.1 to 7.0.2.
+* ENHANCEMENT - Updated Client library for Google APIs from 2.18.3 to 2.19.0.
+* ENHANCEMENT - updated `wpmetabox/meta-box` library from 5.10.15 to 5.10.19.
+* ENHANCEMENT - updated `Meta Box Tabs` library from 1.1.18 to 1.2.0.
+* FIX - `udx/lib-wp-bootstrap` package correctly loads text domain to prevent PHP notices.
+
+= 4.3.0 =
+* ENHANCEMENT - update dependencies for Google APIs Client Library.
+* COMPATIBILITY - Simple Local Avatars Compatibility replaced with [WP-Stateless - Simple Local Avatars Addon](https://wordpress.org/plugins/wp-stateless-simple-local-avatars-addon/).
+
+= 4.2.1 =
+* ENHANCEMENT - updated `wpmetabox/meta-box` library from 5.10.11 to 5.10.15.
+* FIX - correctly loads text domain to prevent PHP notices.
+* FIX - `udx/lib-ud-api-client` package correctly loads text domain to prevent PHP notices.
+
+= 4.2.0 =
 * ENHANCEMENT - Updated Client library for Google APIs from 2.18.2 to 2.18.3.
 * ENHANCEMENT - updated `firebase/php-jwt` library from  6.10.2 to 6.11.1.
 * ENHANCEMENT - updated `wpmetabox/meta-box` library from 5.10.1 to 5.10.11.
